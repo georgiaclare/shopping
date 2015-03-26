@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A32BDDA11AC4B50B00F2FE3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32BDDA01AC4B50B00F2FE3B /* AppDelegate.swift */; };
+		A32BDDA31AC4B50B00F2FE3B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32BDDA21AC4B50B00F2FE3B /* ViewController.swift */; };
+		A32BDDA61AC4B50B00F2FE3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A32BDDA41AC4B50B00F2FE3B /* Main.storyboard */; };
+		A32BDDA81AC4B50B00F2FE3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A32BDDA71AC4B50B00F2FE3B /* Images.xcassets */; };
+		A32BDDAB1AC4B50B00F2FE3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A32BDDA91AC4B50B00F2FE3B /* LaunchScreen.xib */; };
+		A32BDDB71AC4B50B00F2FE3B /* LTC_Shopping_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32BDDB61AC4B50B00F2FE3B /* LTC_Shopping_ListTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A32BDDB11AC4B50B00F2FE3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A32BDD931AC4B50B00F2FE3B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A32BDD9A1AC4B50B00F2FE3B;
+			remoteInfo = "LTC Shopping List";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A32BDD9B1AC4B50B00F2FE3B /* LTC Shopping List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LTC Shopping List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32BDD9F1AC4B50B00F2FE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32BDDA01AC4B50B00F2FE3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A32BDDA21AC4B50B00F2FE3B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A32BDDA51AC4B50B00F2FE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A32BDDA71AC4B50B00F2FE3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A32BDDAA1AC4B50B00F2FE3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A32BDDB01AC4B50B00F2FE3B /* LTC Shopping ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LTC Shopping ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A32BDDB51AC4B50B00F2FE3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A32BDDB61AC4B50B00F2FE3B /* LTC_Shopping_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LTC_Shopping_ListTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A32BDD981AC4B50B00F2FE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32BDDAD1AC4B50B00F2FE3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A32BDD921AC4B50B00F2FE3B = {
+			isa = PBXGroup;
+			children = (
+				A32BDD9D1AC4B50B00F2FE3B /* LTC Shopping List */,
+				A32BDDB31AC4B50B00F2FE3B /* LTC Shopping ListTests */,
+				A32BDD9C1AC4B50B00F2FE3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A32BDD9C1AC4B50B00F2FE3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A32BDD9B1AC4B50B00F2FE3B /* LTC Shopping List.app */,
+				A32BDDB01AC4B50B00F2FE3B /* LTC Shopping ListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A32BDD9D1AC4B50B00F2FE3B /* LTC Shopping List */ = {
+			isa = PBXGroup;
+			children = (
+				A32BDDA01AC4B50B00F2FE3B /* AppDelegate.swift */,
+				A32BDDA21AC4B50B00F2FE3B /* ViewController.swift */,
+				A32BDDA41AC4B50B00F2FE3B /* Main.storyboard */,
+				A32BDDA71AC4B50B00F2FE3B /* Images.xcassets */,
+				A32BDDA91AC4B50B00F2FE3B /* LaunchScreen.xib */,
+				A32BDD9E1AC4B50B00F2FE3B /* Supporting Files */,
+			);
+			path = "LTC Shopping List";
+			sourceTree = "<group>";
+		};
+		A32BDD9E1AC4B50B00F2FE3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A32BDD9F1AC4B50B00F2FE3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A32BDDB31AC4B50B00F2FE3B /* LTC Shopping ListTests */ = {
+			isa = PBXGroup;
+			children = (
+				A32BDDB61AC4B50B00F2FE3B /* LTC_Shopping_ListTests.swift */,
+				A32BDDB41AC4B50B00F2FE3B /* Supporting Files */,
+			);
+			path = "LTC Shopping ListTests";
+			sourceTree = "<group>";
+		};
+		A32BDDB41AC4B50B00F2FE3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A32BDDB51AC4B50B00F2FE3B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A32BDD9A1AC4B50B00F2FE3B /* LTC Shopping List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32BDDBA1AC4B50B00F2FE3B /* Build configuration list for PBXNativeTarget "LTC Shopping List" */;
+			buildPhases = (
+				A32BDD971AC4B50B00F2FE3B /* Sources */,
+				A32BDD981AC4B50B00F2FE3B /* Frameworks */,
+				A32BDD991AC4B50B00F2FE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LTC Shopping List";
+			productName = "LTC Shopping List";
+			productReference = A32BDD9B1AC4B50B00F2FE3B /* LTC Shopping List.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A32BDDAF1AC4B50B00F2FE3B /* LTC Shopping ListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A32BDDBD1AC4B50B00F2FE3B /* Build configuration list for PBXNativeTarget "LTC Shopping ListTests" */;
+			buildPhases = (
+				A32BDDAC1AC4B50B00F2FE3B /* Sources */,
+				A32BDDAD1AC4B50B00F2FE3B /* Frameworks */,
+				A32BDDAE1AC4B50B00F2FE3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A32BDDB21AC4B50B00F2FE3B /* PBXTargetDependency */,
+			);
+			name = "LTC Shopping ListTests";
+			productName = "LTC Shopping ListTests";
+			productReference = A32BDDB01AC4B50B00F2FE3B /* LTC Shopping ListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A32BDD931AC4B50B00F2FE3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Georgia Clare Cooper-Stanbury";
+				TargetAttributes = {
+					A32BDD9A1AC4B50B00F2FE3B = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A32BDDAF1AC4B50B00F2FE3B = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A32BDD9A1AC4B50B00F2FE3B;
+					};
+				};
+			};
+			buildConfigurationList = A32BDD961AC4B50B00F2FE3B /* Build configuration list for PBXProject "LTC Shopping List" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A32BDD921AC4B50B00F2FE3B;
+			productRefGroup = A32BDD9C1AC4B50B00F2FE3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A32BDD9A1AC4B50B00F2FE3B /* LTC Shopping List */,
+				A32BDDAF1AC4B50B00F2FE3B /* LTC Shopping ListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A32BDD991AC4B50B00F2FE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32BDDA61AC4B50B00F2FE3B /* Main.storyboard in Resources */,
+				A32BDDAB1AC4B50B00F2FE3B /* LaunchScreen.xib in Resources */,
+				A32BDDA81AC4B50B00F2FE3B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32BDDAE1AC4B50B00F2FE3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A32BDD971AC4B50B00F2FE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32BDDA31AC4B50B00F2FE3B /* ViewController.swift in Sources */,
+				A32BDDA11AC4B50B00F2FE3B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A32BDDAC1AC4B50B00F2FE3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A32BDDB71AC4B50B00F2FE3B /* LTC_Shopping_ListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A32BDDB21AC4B50B00F2FE3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A32BDD9A1AC4B50B00F2FE3B /* LTC Shopping List */;
+			targetProxy = A32BDDB11AC4B50B00F2FE3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A32BDDA41AC4B50B00F2FE3B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A32BDDA51AC4B50B00F2FE3B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A32BDDA91AC4B50B00F2FE3B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A32BDDAA1AC4B50B00F2FE3B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A32BDDB81AC4B50B00F2FE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A32BDDB91AC4B50B00F2FE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A32BDDBB1AC4B50B00F2FE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LTC Shopping List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A32BDDBC1AC4B50B00F2FE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "LTC Shopping List/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A32BDDBE1AC4B50B00F2FE3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LTC Shopping ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTC Shopping List.app/LTC Shopping List";
+			};
+			name = Debug;
+		};
+		A32BDDBF1AC4B50B00F2FE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LTC Shopping ListTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LTC Shopping List.app/LTC Shopping List";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A32BDD961AC4B50B00F2FE3B /* Build configuration list for PBXProject "LTC Shopping List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32BDDB81AC4B50B00F2FE3B /* Debug */,
+				A32BDDB91AC4B50B00F2FE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A32BDDBA1AC4B50B00F2FE3B /* Build configuration list for PBXNativeTarget "LTC Shopping List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32BDDBB1AC4B50B00F2FE3B /* Debug */,
+				A32BDDBC1AC4B50B00F2FE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A32BDDBD1AC4B50B00F2FE3B /* Build configuration list for PBXNativeTarget "LTC Shopping ListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A32BDDBE1AC4B50B00F2FE3B /* Debug */,
+				A32BDDBF1AC4B50B00F2FE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A32BDD931AC4B50B00F2FE3B /* Project object */;
+}
